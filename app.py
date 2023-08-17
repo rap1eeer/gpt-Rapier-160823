@@ -9,7 +9,7 @@ import openai
 
 app = Flask(__name__)
 
-
+OPENAI_API_KEY='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'
 @app.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
